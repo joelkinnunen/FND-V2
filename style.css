@@ -460,8 +460,8 @@ a {
 
 #artists .img {
 	overflow: hidden;
-	width: 400px;
-	height: 400px;
+	width: 356px;
+	height: 356px;
 	margin-bottom: 1rem;
 }
 #artists .img img {
@@ -508,8 +508,8 @@ a {
 }
 
 #releases .img {
-	width: 400px;
-	height: 400px;
+	width: 356px;
+	height: 356px;
 	overflow: hidden;
 	/* margin: 0 auto; */
 	margin-bottom: 1rem;
