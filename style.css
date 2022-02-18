@@ -452,13 +452,13 @@ a {
 }
 #artists .item {
 	position: relative;
+	padding: 0.5rem;
 	list-style: none;
   flex: 0 0 33.333333%;
   padding-bottom: 4rem;
 }
 
 #artists .img {
-
 	overflow: hidden;
 	width: 400px;
 	height: 400px;
@@ -487,6 +487,12 @@ a {
 		margin: 0rem auto;
 		gap: 50px;
 	}
+
+	@media only screen and (max-width: 950px) {
+		#artists .img {
+			width: 320px;
+			height: 320px;
+		}
 }
 
 
@@ -498,10 +504,10 @@ a {
 #releases .all-items {
   display: flex;
   flex-wrap: wrap;
-  padding-left: 0;
 }
 #releases .item {
 	position: relative;
+	padding: 0.5rem;
 	list-style: none;
 	margin-bottom: 4rem;
   flex: 0 0 33.333333%;
@@ -538,6 +544,12 @@ a {
 		padding-right: 1rem;
 		gap: 50px;
 	}
+
+	@media only screen and (max-width: 950px) {
+		#releases .img {
+			width: 320px;
+			height: 320px;
+		}
 }
 
 /* Podcast & Radio section  */
